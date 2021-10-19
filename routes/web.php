@@ -13,5 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'auth.login');
+Route::view('/', 'index');
+Route::view('dashboard', 'dashboard.index');
+Route::view('login', 'auth.login');
 Route::view('register', 'auth.register');
